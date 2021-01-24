@@ -1,7 +1,7 @@
 import random
 
 def sort(arr):
-    random.shuffle(arr) # shuffle to array to avoid worst case scenario for quicksort
+    random.shuffle(arr) # shuffle the array to avoid worst case scenario for quicksort
     quicksort(arr,0,len(arr)-1)
 
 def quicksort(arr, low, high):
