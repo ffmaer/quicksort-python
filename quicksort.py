@@ -1,5 +1,9 @@
 import random
 
+def sort(arr):
+    random.shuffle(arr) # shuffle to array to avoid worst case scenario for quicksort
+    quicksort(arr,0,len(arr)-1)
+
 def quicksort(arr, low, high):
     if low<high:
         pivot = partition(arr,low,high)
@@ -21,7 +25,6 @@ def swap(arr, a, b):
     arr[b] = temp
 
 arr=[random.randint(1,100) for i in range(10)]
-random.shuffle(arr) # shuffle to array to avoid worst case scenario for quicksort
 print(arr)
-quicksort(arr,0,len(arr)-1)
+sort(arr)
 print(arr)
