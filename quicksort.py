@@ -9,6 +9,7 @@ def quicksort(arr, low, high):
         pivot = partition(arr,low,high)
         quicksort(arr, low, pivot-1)
         quicksort(arr, pivot+1, high)
+
 def partition(arr, low, high):
     pivot = arr[low]
     #chunk1 less or equal to pivot
@@ -19,6 +20,7 @@ def partition(arr, low, high):
             chunk1_last+=1
     swap(arr, low, chunk1_last)
     return chunk1_last
+
 def swap(arr, a, b):
     temp = arr[a]
     arr[a] = arr[b]
