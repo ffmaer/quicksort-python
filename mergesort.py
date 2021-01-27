@@ -13,7 +13,7 @@ def mergesort(arr):
             mid=low+size/2
             high=min(len(arr)-1,low+size-1)
             if mid > len(arr)-1: break
-            merge(arr, low, mid, high, aux) # [low, mid-1] [mid, high]
+            merge(arr, low, mid, high, aux) # Merge [low, mid-1] & [mid, high] into [low, high]
             low+=size
         size*=2
 
