@@ -1,5 +1,5 @@
 # Sort x Python
-## An implementation of QuickSort and MergeSort in Python
+## Implementations of QuickSort and MergeSort in Python
 
 ### QuickSort
 - We randomize the array before sorting to avoid worst case performance.
