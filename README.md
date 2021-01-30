@@ -25,3 +25,9 @@
 ### CountingSort
 - When the range of input is large, CountingSort may take a huge amount of space.
 - It's useful when the input has a small amount of variety within a small range. And the input range can be mapped to array indices easily.
+
+### BucketSort
+- It's a scatter-gather approach. [1]
+
+References:
+1. https://www.programiz.com/dsa/bucket-sort
