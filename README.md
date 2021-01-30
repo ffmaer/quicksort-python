@@ -26,13 +26,16 @@
 - When the range of input is large, CountingSort may take a huge amount of space.
 - It's useful when the input has a small amount of variety within a small range. And the input range can be mapped to array indices easily.
 
+### PigeonHoleSort
+- CountingSort only uses an auxilary array to keep track of the counts, while PigeonHoleSort creates an auxilary array to store numbers, or perhaps references to objects (for example, pigeons). [5]
+
 ### BucketSort
 - It's a scatter-gather approach. [1]
 - [Visualizations](https://medium.com/karuna-sehgal/an-introduction-to-bucket-sort-62aa5325d124)
 - "The worst-case scenario occurs when all the elements are placed in a single bucket. The overall performance would then be dominated by the algorithm used to sort each bucket." [3]
 
 ### RadixSort
-- "Radix is a Latin word for "root". Root can be considered a synonym for base, in the arithmetical sense." [4] Base-10-sort
+- "Radix is a Latin word for "root". Root can be considered a synonym for base, in the arithmetical sense." [4] Base-10-sort, alphabet-sort.
 - Sort digit by digit from the most signinificant bit to the least significant bit or from the least significant bit to the most significant bit.
 
 ### Bogosort
@@ -43,3 +46,4 @@ References:
 2. https://en.wikipedia.org/wiki/Bogosort
 3. https://en.wikipedia.org/wiki/Bucket_sort
 4. https://en.wikipedia.org/wiki/Radix
+5. https://en.wikipedia.org/wiki/Pigeonhole_sort
