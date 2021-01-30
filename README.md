@@ -31,6 +31,10 @@
 - [Visualizations](https://medium.com/karuna-sehgal/an-introduction-to-bucket-sort-62aa5325d124)
 - "The worst-case scenario occurs when all the elements are placed in a single bucket. The overall performance would then be dominated by the algorithm used to sort each bucket." [3]
 
+### RadixSort
+- "Radix is a Latin word for "root". Root can be considered a synonym for base, in the arithmetical sense." [4] Base-10-sort
+- Sort digit by digit from the most signinificant bit to the least significant bit or from the least significant bit to the most significant bit.
+
 ### Bogosort
 - It's also known as monkey sort, stupid sort, random sort and permutation sort. [2]
 
@@ -38,3 +42,4 @@ References:
 1. https://www.programiz.com/dsa/bucket-sort
 2. https://en.wikipedia.org/wiki/Bogosort
 3. https://en.wikipedia.org/wiki/Bucket_sort
+4. https://en.wikipedia.org/wiki/Radix
