@@ -12,3 +12,6 @@
 
 ### HeapSort
 - We used a max-heap.
+
+### BubbleSort
+- BubbleSort works because we will move the smallest discovered to the left one step at a time.
