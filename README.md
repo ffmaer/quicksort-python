@@ -13,5 +13,11 @@
 ### HeapSort
 - We used a max-heap.
 
+### SelectionSort
+- In every interation, we select the minimum from the unsorted and put it at the right place.
+
+### InsertionSort
+- In every interation, we insert a new number to the sorted numbers.
+
 ### BubbleSort
 - BubbleSort works because we will move the smallest discovered to the left one step at a time.
