@@ -1,6 +1,6 @@
 # Sort x Python
 
-## Implementating Sorting Algorithms in Python
+## Implementing Sorting Algorithms in Python
 
 ### QuickSort
 - We randomize the array before sorting to avoid worst case performance.
