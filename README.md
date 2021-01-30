@@ -6,5 +6,8 @@
 - We always choose the first element in the partition to be the pivot.
 
 ### MergeSort
-- We use the bottom-up approach.
-- We use a third array of size n to help with merging two subarrays of size n/2.
+- We used the bottom-up approach.
+- We used a third array of size n to help with merging two subarrays of size n/2.
+
+### HeapSort
+- We used a max-heap.
