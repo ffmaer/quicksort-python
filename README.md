@@ -27,7 +27,7 @@
 - It's useful when the input has a small amount of variety within a small range. And the input range can be mapped to array indices easily.
 
 ### PigeonHoleSort
-- CountingSort only uses an auxilary array to keep track of the counts, while PigeonHoleSort creates an auxilary array to store numbers, or perhaps references to objects (for example, pigeons). [5]
+- While CountingSort only uses an auxilary array to keep track of the counts, PigeonHoleSort creates an auxilary array to store numbers, or perhaps references to objects (for example, pigeons). [5]
 
 ### BucketSort
 - It's a scatter-gather approach. [1]
