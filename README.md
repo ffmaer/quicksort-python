@@ -21,3 +21,6 @@
 
 ### BubbleSort
 - BubbleSort works because we will move the smallest discovered to the left one step at a time.
+
+### CountingSort
+- When the range of input is large, CountingSort may take a huge amount of space.
