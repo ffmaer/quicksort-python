@@ -28,6 +28,8 @@
 
 ### BucketSort
 - It's a scatter-gather approach. [1]
+- [Visualizations](https://medium.com/karuna-sehgal/an-introduction-to-bucket-sort-62aa5325d124)
+- "The worst-case scenario occurs when all the elements are placed in a single bucket. The overall performance would then be dominated by the algorithm used to sort each bucket." [3]
 
 ### Bogosort
 - It's also known as monkey sort, stupid sort, random sort and permutation sort. [2]
@@ -35,3 +37,4 @@
 References:
 1. https://www.programiz.com/dsa/bucket-sort
 2. https://en.wikipedia.org/wiki/Bogosort
+3. https://en.wikipedia.org/wiki/Bucket_sort
