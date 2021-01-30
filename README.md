@@ -40,6 +40,7 @@
 
 ### Bogosort
 - It's also known as monkey sort, stupid sort, random sort and permutation sort. [2]
+- It's a highly inefficient sorting algorithm. [2]
 
 References:
 1. https://www.programiz.com/dsa/bucket-sort
