@@ -29,5 +29,9 @@
 ### BucketSort
 - It's a scatter-gather approach. [1]
 
+### Bogosort
+- It's also known as monkey sort, stupid sort, random sort and permutation sort. [2]
+
 References:
 1. https://www.programiz.com/dsa/bucket-sort
+2. https://en.wikipedia.org/wiki/Bogosort
