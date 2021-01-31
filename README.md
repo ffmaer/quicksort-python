@@ -1,5 +1,3 @@
-# Sort x Python
-
 ## Implementing Sorting Algorithms in Python
 
 ### QuickSort
@@ -45,7 +43,7 @@
 ### ShellSort
 - The algorithm was published in 1959 and was named after its inventor Donald Shell. [7]
 
-References:
+## References:
 1. https://www.programiz.com/dsa/bucket-sort
 2. https://en.wikipedia.org/wiki/Bogosort
 3. https://en.wikipedia.org/wiki/Bucket_sort
