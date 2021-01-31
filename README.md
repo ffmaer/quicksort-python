@@ -42,6 +42,8 @@
 
 ### ShellSort
 - The algorithm was published in 1959 and was named after its inventor Donald Shell. [7]
+- It's also known as the "diminishing increment sort." [8]
+- Researchers are still deciding the optimal diminishing increments for large N. [8]
 
 ## References:
 1. https://www.programiz.com/dsa/bucket-sort
@@ -51,3 +53,5 @@
 5. https://en.wikipedia.org/wiki/Pigeonhole_sort
 6. http://penguin.ewu.edu/cscd300/Topic/AdvSorting/p30-shell.pdf
 7. https://dl.acm.org/doi/10.1145/368370.368387
+8. Knuth, Donald E. (1997). "Shell's method". The Art of Computer Programming. Volume 3: Sorting and Searching (2nd ed.). Reading, Massachusetts: Addison-Wesley. pp. 83–95. ISBN 978-0-201-89685-5.
+9. Robert Sedgewick. 1996. “Analysis of Shellsort and Related Algorithms.” Fourth Annual European Symposium on Algorithms, September. https://www.cs.princeton.edu/~rs/shell/.
