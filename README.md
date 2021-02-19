@@ -42,6 +42,10 @@
 - It's also known as monkey sort, stupid sort, random sort, and permutation sort. [2]
 - It's a highly inefficient sorting algorithm. [2]
 
+### Pancakesort
+- Time: O(n^2) Space: O(1)
+- You find and flip the largest element to the front. And then you flip the largest element to the end. Repeat the process until the arry is sorted.
+
 References:
 1. https://www.programiz.com/dsa/bucket-sort
 2. https://en.wikipedia.org/wiki/Bogosort
