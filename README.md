@@ -44,7 +44,6 @@
 - Time: O(n^2) Space: O(1)
 - You find and flip the largest element to the front. And then you flip the largest element to the end. Repeat the process until the arry is sorted.
 
-References:
 ### ShellSort
 - The algorithm was published in 1959 and was named after its inventor Donald Shell. [7]
 - It's also known as the "diminishing increment sort." [8]
